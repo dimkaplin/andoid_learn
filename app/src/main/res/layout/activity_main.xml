@@ -11,18 +11,18 @@
         android:layout_height="wrap_content"
         android:text="Hello World!"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintHorizontal_bias="0.438"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.167" />
+        app:layout_constraintVertical_bias="0.077" />
 
     <Button
         android:id="@+id/start_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="172dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="148dp"
         android:text="Не нажимать"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -35,5 +35,12 @@
         android:layout_marginTop="56dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/start_button" />
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="222dp"
+        android:layout_height="113dp"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="128dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
